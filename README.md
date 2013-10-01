@@ -18,3 +18,7 @@ http://www.dafont.com/fff-tusj.font
 which says that it is a free font. If we settle on it, we should consider 
 dropping a donation on the creator via that link.
 
+Note also: to deploy on lab, I had to edit
+/usr/share/mediawiki/resources/Resources.php to have a block for the rhlskin
+to point at the top CSS files; copied the monobook block.
+The original version of Resources.php is in Resources.php.orig
